@@ -14,7 +14,7 @@ public class SaucedemoComAutorization {
 
 	@Test
 	@Description("Авторизоваться на сайте")
-	@Owner("Калинченко Андрей")
+	@Owner("Калинченко Андрей йй")
 
 
 	public void SaucedemoComAutorizationPositive() {
