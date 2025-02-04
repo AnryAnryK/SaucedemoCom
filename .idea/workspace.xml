@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="241807ac-e78f-461c-ab0a-06e3204a3728" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SaucedemoComTests/SaucedemoComAutorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SaucedemoComApiTests/SaucedemoComApiAutorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SaucedemoComTests/SaucedemoComAddProductToCartAndCheckout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SaucedemoComTests/SaucedemoComRemoveProductFromCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SaucedemoComTests/SaucedemoComAutorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SaucedemoComTests/SaucedemoComAutorization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +41,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.SaucedemoComAutorization.SaucedemoComAutorizationPositive.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SaucedemoComAutorization.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/Saucedemo/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Mercurial&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.SaucedemoComAutorization.SaucedemoComAutorizationPositive.executor": "Run",
+    "JUnit.SaucedemoComAddProductToCart.executor": "Run",
+    "JUnit.SaucedemoComAddProductToCartAndCheckout.executor": "Run",
+    "JUnit.SaucedemoComApiAutorization.executor": "Run",
+    "JUnit.SaucedemoComAutorization.executor": "Run",
+    "JUnit.SaucedemoComRemoveProductFromCart.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/Saucedemo/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Mercurial"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.SaucedemoComAutorization">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SaucedemoComApiTests" />
+      <recent name="SaucedemoComTests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SaucedemoComApiAutorization">
     <configuration name="SaucedemoComAutorization.SaucedemoComAutorizationPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -88,6 +91,36 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="SaucedemoComAddProductToCartAndCheckout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SaucedemoComTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SaucedemoComTests" />
+      <option name="MAIN_CLASS_NAME" value="SaucedemoComTests.SaucedemoComAddProductToCartAndCheckout" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaucedemoComApiAutorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SaucedemoComApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SaucedemoComApiTests" />
+      <option name="MAIN_CLASS_NAME" value="SaucedemoComApiTests.SaucedemoComApiAutorization" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SaucedemoComAutorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo.test" />
       <extension name="coverage">
@@ -103,8 +136,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SaucedemoComRemoveProductFromCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SaucedemoComTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SaucedemoComTests" />
+      <option name="MAIN_CLASS_NAME" value="SaucedemoComTests.SaucedemoComRemoveProductFromCart" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SaucedemoComApiAutorization" />
+        <item itemvalue="JUnit.SaucedemoComRemoveProductFromCart" />
+        <item itemvalue="JUnit.SaucedemoComAddProductToCartAndCheckout" />
         <item itemvalue="JUnit.SaucedemoComAutorization" />
         <item itemvalue="Gradle.SaucedemoComAutorization.SaucedemoComAutorizationPositive" />
       </list>
