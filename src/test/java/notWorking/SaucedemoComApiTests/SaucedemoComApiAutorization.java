@@ -1,10 +1,12 @@
-package SaucedemoComApiTests;
+package notWorking.SaucedemoComApiTests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.$x;
@@ -16,8 +18,9 @@ import static org.hamcrest.core.Is.is;
 
 public class SaucedemoComApiAutorization {
 
+
 	@Test
-	@Description("Авторизоваться на сайте")
+	@Description("Авторизоваться на сайте https://www.saucedemo.com, положить товар в Корзину и проверить результат на корректность через Api - ожидаемый код 405")
 	@Owner("Калинченко Андрей")
 
 
@@ -40,6 +43,7 @@ public class SaucedemoComApiAutorization {
 	}
 
 	@Test
+	@Description ("Авторизоваться на сайте https://www.saucedemo.com, положить товар в Корзину и проверить результат на корректность через Api - ожидаемый код 200")
 	public void SaucedemoComApiAutorizationPositive200Code() {
 
 		Configuration.pageLoadStrategy = "eager";
@@ -57,6 +61,6 @@ public class SaucedemoComApiAutorization {
 				.then()
 				.log().status()
 				.log().body()
-				.statusCode(200);
+				.statusCode(200);  // не работает !!!
 	}
 }
