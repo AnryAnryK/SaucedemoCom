@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="241807ac-e78f-461c-ab0a-06e3204a3728" name="Changes" comment="2025.02.04 в package SaucedemoComTests добавлены Классы:&#10;&#10;SaucedemoComApiAutorization,&#10;SaucedemoComAddProductToCartAndCheckout,&#10;SaucedemoComRemoveProductFromCart.&#10;&#10;Добавлен пакет SaucedemoComApiTests с Классом SaucedemoComApiAutorization">
-      <change afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/MestoPraktikumApiTestsAutorizationPositive200Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/notWorking/DemoqaComApiTests/DemoqaComApiTestsAutorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/notWorking/DemowebshopApiTests/DemowebshopApiAutorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/notWorking/ParabankParasoftCom/ParabankParasoftComApiTestAutorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/notWorking/QaScooterPraktikumServicesRuApiTests/QaScooterPraktikumServicesRuApiTestsAutorisation.java" afterDir="false" />
+    <list default="true" id="241807ac-e78f-461c-ab0a-06e3204a3728" name="Changes" comment="2025.02.06 в package MestoPraktikumApiTests в public class MestoPraktikumApiTestsAutorizationPositive200Code&#10;&#10;добавил два Успешных ТК:&#10;- public void MestoPraktikumApiTestsAutorizationPositivePost200Code()&#10;-public void MestoPraktikumApiTestsAutorizationPositiveGet200Code()&#10;&#10;&#10;&#10;Добавлен пакет SaucedemoComApiTests с Классом SaucedemoComApiAutorization">
+      <change afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/LoginBodyLombokModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/LoginResponseLombokModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/LoginSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/notWorking/DemowebshopApiTests/Sucessfull/DemowebshopApiAddProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/notWorking/DemowebshopApiTests/Sucessfull/DemowebshopApiLightOpeningSite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/add_product_demowebshop_request.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/add_product_demowebshop_response.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SaucedemoComApiTests/SaucedemoComApiAutorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/notWorking/SaucedemoComApiTests/SaucedemoComApiAutorization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/MestoPraktikumApiTestsAutorizationPositive200Code.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/MestoPraktikumApiTestsAutorizationPositive200Code.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/notWorking/DemowebshopApiTests/DemowebshopApiAutorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/notWorking/DemowebshopApiTests/DemowebshopApiAutorization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/notWorking/SaucedemoComApiTests/SaucedemoComApiAutorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/notWorking/SaucedemoComApiTests/SaucedemoComApiAutorization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Saucedemo" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,18 +66,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
     "Gradle.SaucedemoComAutorization.SaucedemoComAutorizationPositive.executor": "Run",
     "JUnit.DemoqaComApiTestsAutorization.DemoqaComApiTestsAutorizationPositive200Code.executor": "Run",
     "JUnit.DemoqaComApiTestsAutorization.DemoqaComApiTestsAutorizationPositiveTabnine200Code.executor": "Run",
     "JUnit.DemoqaComApiTestsAutorization.executor": "Run",
     "JUnit.DemoqaComApiTestsAutorization.sendPostRequestToMestoPraktikum.executor": "Run",
+    "JUnit.DemowebshopApiAddProduct.DemowebshopApiAutorizationPositive200Code.executor": "Run",
+    "JUnit.DemowebshopApiAddProduct.DemowebshopApiNoAutorizationPositive200Code.executor": "Run",
     "JUnit.DemowebshopApiAutorization.DemowebshopApiAutorizationPositive200Code.executor": "Run",
     "JUnit.DemowebshopApiAutorization.DemowebshopApiAutorizationPositiveRestAssured.executor": "Run",
     "JUnit.DemowebshopApiAutorization.executor": "Run",
+    "JUnit.DemowebshopApiLightOpeningSite.DemowebshopApiLightOpeningSitePositive.executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200Code (1).executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200Code.MestoPraktikumApiTestsAutorizationPositive200Code (1).executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200Code.MestoPraktikumApiTestsAutorizationPositive200Code.executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200Code.MestoPraktikumApiTestsAutorizationPositiveGet200Code.executor": "Run",
+    "JUnit.MestoPraktikumApiTestsAutorizationPositive200Code.MestoPraktikumApiTestsAutorizationPositiveGetLombok200Code.executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200Code.MestoPraktikumApiTestsAutorizationPositivePost200Code.executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200Code.executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200Code.sMestoPraktikumApiTestsAutorizationPositive200Code.executor": "Run",
@@ -64,9 +91,14 @@
     "JUnit.SaucedemoComAddProductToCart.executor": "Run",
     "JUnit.SaucedemoComAddProductToCartAndCheckout.executor": "Run",
     "JUnit.SaucedemoComApiAutorization.SaucedemoComApiAutorizationPositive200Code.executor": "Run",
+    "JUnit.SaucedemoComApiAutorization.SaucedemoComApiAutorizationPositiveGet200Code.executor": "Run",
+    "JUnit.SaucedemoComApiAutorization.SaucedemoComApiAutorizationPositivePost200Code.executor": "Run",
     "JUnit.SaucedemoComApiAutorization.executor": "Run",
     "JUnit.SaucedemoComAutorization.executor": "Run",
     "JUnit.SaucedemoComRemoveProductFromCart.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -75,57 +107,77 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Mercurial"
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="notWorking.DemowebshopApiTests" />
+      <recent name="MestoPraktikumApiTests" />
       <recent name="SaucedemoComApiTests" />
       <recent name="SaucedemoComTests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MestoPraktikumApiTestsAutorizationPositive200Code">
-    <configuration name="MestoPraktikumApiTestsAutorizationPositive200Code (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DemowebshopApiAddProduct.DemowebshopApiNoAutorizationPositive200Code">
+    <configuration name="DemowebshopApiAddProduct.DemowebshopApiAutorizationPositive200Code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notWorking.MestoPraktikumApiTests.*" />
+          <option name="PATTERN" value="notWorking.DemowebshopApiTests.Sucessfull.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="notWorking.MestoPraktikumApiTests" />
-      <option name="MAIN_CLASS_NAME" value="notWorking.MestoPraktikumApiTests.MestoPraktikumApiTestsAutorizationPositive200Code" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="notWorking.DemowebshopApiTests.Sucessfull" />
+      <option name="MAIN_CLASS_NAME" value="notWorking.DemowebshopApiTests.Sucessfull.DemowebshopApiAddProduct" />
+      <option name="METHOD_NAME" value="DemowebshopApiAutorizationPositive200Code" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MestoPraktikumApiTestsAutorizationPositive200Code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemowebshopApiAddProduct.DemowebshopApiNoAutorizationPositive200Code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MestoPraktikumApiTests.*" />
+          <option name="PATTERN" value="notWorking.DemowebshopApiTests.Sucessfull.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MestoPraktikumApiTests" />
-      <option name="MAIN_CLASS_NAME" value="MestoPraktikumApiTests.MestoPraktikumApiTestsAutorizationPositive200Code" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="notWorking.DemowebshopApiTests.Sucessfull" />
+      <option name="MAIN_CLASS_NAME" value="notWorking.DemowebshopApiTests.Sucessfull.DemowebshopApiAddProduct" />
+      <option name="METHOD_NAME" value="DemowebshopApiNoAutorizationPositive200Code" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MestoPraktikumApiTestsAutorizationPositive200Code.MestoPraktikumApiTestsAutorizationPositive200Code (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemowebshopApiAutorization.DemowebshopApiAutorizationPositive200Code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notWorking.MestoPraktikumApiTests.*" />
+          <option name="PATTERN" value="notWorking.DemowebshopApiTests.Sucessfull.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="notWorking.MestoPraktikumApiTests" />
-      <option name="MAIN_CLASS_NAME" value="notWorking.MestoPraktikumApiTests.MestoPraktikumApiTestsAutorizationPositive200Code" />
-      <option name="METHOD_NAME" value="MestoPraktikumApiTestsAutorizationPositive200Code" />
+      <option name="PACKAGE_NAME" value="notWorking.DemowebshopApiTests" />
+      <option name="MAIN_CLASS_NAME" value="notWorking.DemowebshopApiTests.DemowebshopApiAutorization" />
+      <option name="METHOD_NAME" value="DemowebshopApiAutorizationPositive200Code" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemowebshopApiLightOpeningSite.DemowebshopApiLightOpeningSitePositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="notWorking.DemowebshopApiTests.Sucessfull.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="notWorking.DemowebshopApiTests.Sucessfull" />
+      <option name="MAIN_CLASS_NAME" value="notWorking.DemowebshopApiTests.Sucessfull.DemowebshopApiLightOpeningSite" />
+      <option name="METHOD_NAME" value="DemowebshopApiLightOpeningSitePositive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,29 +199,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MestoPraktikumApiTestsAutorizationPositive200Code.MestoPraktikumApiTestsAutorizationPositivePost200Code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Saucedemo.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MestoPraktikumApiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MestoPraktikumApiTests" />
-      <option name="MAIN_CLASS_NAME" value="MestoPraktikumApiTests.MestoPraktikumApiTestsAutorizationPositive200Code" />
-      <option name="METHOD_NAME" value="MestoPraktikumApiTestsAutorizationPositivePost200Code" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MestoPraktikumApiTestsAutorizationPositive200Code" />
+        <item itemvalue="JUnit.DemowebshopApiAddProduct.DemowebshopApiNoAutorizationPositive200Code" />
+        <item itemvalue="JUnit.DemowebshopApiAddProduct.DemowebshopApiAutorizationPositive200Code" />
+        <item itemvalue="JUnit.DemowebshopApiAutorization.DemowebshopApiAutorizationPositive200Code" />
+        <item itemvalue="JUnit.DemowebshopApiLightOpeningSite.DemowebshopApiLightOpeningSitePositive" />
         <item itemvalue="JUnit.MestoPraktikumApiTestsAutorizationPositive200Code.MestoPraktikumApiTestsAutorizationPositiveGet200Code" />
-        <item itemvalue="JUnit.MestoPraktikumApiTestsAutorizationPositive200Code.MestoPraktikumApiTestsAutorizationPositivePost200Code" />
-        <item itemvalue="JUnit.MestoPraktikumApiTestsAutorizationPositive200Code (1)" />
-        <item itemvalue="JUnit.MestoPraktikumApiTestsAutorizationPositive200Code.MestoPraktikumApiTestsAutorizationPositive200Code (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738678132421</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2025.02.06 в package MestoPraktikumApiTests в public class MestoPraktikumApiTestsAutorizationPositive200Code&#10;&#10;добавил два Успешных ТК:&#10;- public void MestoPraktikumApiTestsAutorizationPositivePost200Code()&#10;-public void MestoPraktikumApiTestsAutorizationPositiveGet200Code()&#10;&#10;&#10;&#10;Добавлен пакет SaucedemoComApiTests с Классом SaucedemoComApiAutorization">
+      <option name="closed" value="true" />
+      <created>1738849289117</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738849289117</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +253,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2025.02.04 в package SaucedemoComTests добавлены Классы:&#10;&#10;SaucedemoComApiAutorization,&#10;SaucedemoComAddProductToCartAndCheckout,&#10;SaucedemoComRemoveProductFromCart.&#10;&#10;Добавлен пакет SaucedemoComApiTests с Классом SaucedemoComApiAutorization" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.02.04 в package SaucedemoComTests добавлены Классы:&#10;&#10;SaucedemoComApiAutorization,&#10;SaucedemoComAddProductToCartAndCheckout,&#10;SaucedemoComRemoveProductFromCart.&#10;&#10;Добавлен пакет SaucedemoComApiTests с Классом SaucedemoComApiAutorization" />
+    <MESSAGE value="2025.02.06 в package MestoPraktikumApiTests в public class MestoPraktikumApiTestsAutorizationPositive200Code&#10;&#10;добавил два Успешных ТК:&#10;- public void MestoPraktikumApiTestsAutorizationPositivePost200Code()&#10;-public void MestoPraktikumApiTestsAutorizationPositiveGet200Code()&#10;&#10;&#10;&#10;Добавлен пакет SaucedemoComApiTests с Классом SaucedemoComApiAutorization" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.02.06 в package MestoPraktikumApiTests в public class MestoPraktikumApiTestsAutorizationPositive200Code&#10;&#10;добавил два Успешных ТК:&#10;- public void MestoPraktikumApiTestsAutorizationPositivePost200Code()&#10;-public void MestoPraktikumApiTestsAutorizationPositiveGet200Code()&#10;&#10;&#10;&#10;Добавлен пакет SaucedemoComApiTests с Классом SaucedemoComApiAutorization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

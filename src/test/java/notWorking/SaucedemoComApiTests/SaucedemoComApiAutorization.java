@@ -43,21 +43,40 @@ public class SaucedemoComApiAutorization {
 	}
 
 	@Test
-	@Description ("Авторизоваться на сайте https://www.saucedemo.com, положить товар в Корзину и проверить результат на корректность через Api - ожидаемый код 200")
-	public void SaucedemoComApiAutorizationPositive200Code() {
+	@Description("Авторизоваться на сайте https://www.saucedemo.com, положить товар в Корзину и проверить результат на корректность через Api - ожидаемый код 200")
+	public void SaucedemoComApiAutorizationPositivePost200Code() {
 
 		Configuration.pageLoadStrategy = "eager";
 		Configuration.browserSize = "1920x1080";
 		SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
-//		String data = "{ \"Username\": \"standard_user\", \"Password\": \"secret_sauce\" }";
+		String data = "{ \"Username\": \"standard_user\", \"Password\": \"secret_sauce\" }";
 
 		given()
 				.log().uri()
 				.contentType(JSON)
-//				.body(data)
+				.body(data)
 				.when()
-				.post("https://www.saucedemo.com/inventory.html")
+				.post("https://www.saucedemo.com/")
+				.then()
+				.log().status()
+				.log().body()
+				.statusCode(200);  // не работает !!!
+	}
+
+	@Test
+	@Description("Авторизоваться на сайте https://www.saucedemo.com/inventory.html, положить товар в Корзину и проверить результат на корректность через Api - ожидаемый код 200")
+	public void SaucedemoComApiAutorizationPositiveGet200Code() {
+
+		Configuration.pageLoadStrategy = "eager";
+		Configuration.browserSize = "1920x1080";
+		SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+
+		given()
+				.log().uri()
+				.contentType(JSON)
+				.when()
+				.get("https://www.saucedemo.com/inventory.html")
 				.then()
 				.log().status()
 				.log().body()

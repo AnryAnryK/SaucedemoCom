@@ -5,10 +5,13 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import io.qameta.allure.selenide.AllureSelenide;
+import io.restassured.response.ValidatableResponse;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.http.ContentType.JSON;
+
+import static org.hamcrest.Matchers.is;
 
 public class MestoPraktikumApiTestsAutorizationPositive200Code {
 
@@ -56,4 +59,26 @@ public class MestoPraktikumApiTestsAutorizationPositive200Code {
 				.log().body()
 				.statusCode(200);
 	}
+
+
+//	@Test  // ТЕСТ не УСПЕШНЫЙ !!!
+//	@Description("Отправить GET-запрос к ресурсу https://qa-mesto.praktikum-services.ru/api/users/me    , т.е. убедиться, что по email и password, введенным при регистрации, система пускает в Личный Кабинет зарегистрированного пользователя")
+//	@Owner("Калинченко Андрей")
+//	public String ValidatableResponse login() {
+////		Configuration.pageLoadStrategy = "eager";
+////		Configuration.browserSize = "1920x1080";
+////		SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+//return
+//
+//		given()
+//				.log().uri()
+//				.header("Authorization", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2EzNjljNTMxOTBmMzAwM2M0Y2RiYTMiLCJpYXQiOjE3Mzg5Mjk0NTIsImV4cCI6MTczOTUzNDI1Mn0.j3qX9WlBBkUg8SujldKRuYuj2fE7TRDgMTn5RnxkdEY")
+//				.contentType(JSON)
+//				.when()
+//				.get("https://qa-mesto.praktikum-services.ru/api/users/me")
+//				.then()
+//				.log().status()
+//				.log().body()
+//				.statusCode(200);
+//	}
 }

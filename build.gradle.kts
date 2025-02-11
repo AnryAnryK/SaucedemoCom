@@ -35,6 +35,7 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.0") //для Аллюр- отчётов
     testImplementation("io.rest-assured:rest-assured:5.5.0") //для тестирования Rest Api
     testImplementation("com.github.javafaker:javafaker:1.0.2")  //javaFaker
+    compileOnly("org.projectlombok:lombok:1.18.36")  //lombok
 }
 
 tasks.test {

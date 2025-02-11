@@ -15,7 +15,7 @@ import static io.restassured.http.ContentType.JSON;
 public class DemowebshopApiAutorization {
 
 
-	@Test   //  !! Тест провальный
+	@Test   //  !! Тест провальный (всегда код 200, даже с неверными Логином / Паролем)
 	@Description("Авторизоваться на сайте https://demowebshop.tricentis.com/login, положить товар в Корзину и проверить результат на корректность через Api")
 	@Owner("Калинченко Андрей")
 
@@ -24,16 +24,15 @@ public class DemowebshopApiAutorization {
 		Configuration.browserSize = "1920x1080";
 		SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
-//		String data = "{ \"Email:\": \"11@11.com\", \"Password\": \"123456\" }";
+		String data = "{ \"Email:\": \"11@11.com\", \"Password\": \"123456\" }";
 		given()
 				.log().uri()
 				.contentType(JSON)
-//				.body(data)
+				.body(data)
 				.when()
-//				.post("https://demowebshop.tricentis.com/customer/info")
-				.formParam("username", "11@11")
-				.formParam("password", 123456)
 				.post("https://demowebshop.tricentis.com/login")
+//				.formParam("username", "11@11")
+//				.formParam("password", 123456)
 				.then()
 				.log().status()
 				.log().body();

@@ -1,0 +1,17 @@
+curl ^"https://demowebshop.tricentis.com/addproducttocart/details/72/1^" ^
+  -H ^"Accept: */*^" ^
+  -H ^"Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -H ^"Connection: keep-alive^" ^
+  -H ^"Content-Type: application/x-www-form-urlencoded; charset=UTF-8^" ^
+  -H ^"Cookie: __utmz=78382081.1738680269.1.1.utmcsr=(direct)^|utmccn=(direct)^|utmcmd=(none); ARRAffinity=ab1d27ec558002d89bd248f3070321fabd47658f9e38575f9c1a84b4f0c1e631; ARRAffinitySameSite=ab1d27ec558002d89bd248f3070321fabd47658f9e38575f9c1a84b4f0c1e631; __utmc=78382081; __RequestVerificationToken=I4lteqAiBjRzOu0h6N7MpKOCv8YwBNo8kms9wxmoL5oD2W8-Tcxcnl_gOYTvORY45JpikuA1QlTeYimBzoaKGCWEc5XbcoMF-AWy0us8H3Q1; nop.CompareProducts=CompareProductIds=21^&CompareProductIds=44; ASP.NET_SessionId=yw2zx4yor42ifavj0rxqisuh; Nop.customer=b8c2b966-290d-4393-8ffb-148ea77de6d4; NOPCOMMERCE.AUTH=F37375B37C979012DD45E9A7F23665CD2C2769D3C9C64818DAA6E19B6072B0C6B74CA5D6CB531FA98F072EC16230905D8F7D89A1D47882A3120846E7CD6CC2C295962B1581B493A6ABF4389B29376B55C2182F791BFD7022559F57B4C4357335CD109A78937F9333147D82EC007D3002; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=72^&RecentlyViewedProductIds=43^&RecentlyViewedProductIds=21^&RecentlyViewedProductIds=32; __utma=78382081.366098798.1738680269.1739178356.1739193973.7; __utmt=1; __utmb=78382081.11.10.1739193973^" ^
+  -H ^"Origin: https://demowebshop.tricentis.com^" ^
+  -H ^"Referer: https://demowebshop.tricentis.com/build-your-cheap-own-computer^" ^
+  -H ^"Sec-Fetch-Dest: empty^" ^
+  -H ^"Sec-Fetch-Mode: cors^" ^
+  -H ^"Sec-Fetch-Site: same-origin^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36^" ^
+  -H ^"X-Requested-With: XMLHttpRequest^" ^
+  -H ^"sec-ch-ua: ^\^"Not A(Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"132^\^", ^\^"Google Chrome^\^";v=^\^"132^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  --data-raw ^"product_attribute_72_5_18=53^&product_attribute_72_6_19=54^&product_attribute_72_3_20=57^&addtocart_72.EnteredQuantity=1^"
