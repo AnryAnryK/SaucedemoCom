@@ -35,6 +35,9 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.0") //для Аллюр- отчётов
     testImplementation("io.rest-assured:rest-assured:5.5.0") //для тестирования Rest Api
     testImplementation("com.github.javafaker:javafaker:1.0.2")  //javaFaker
+//    testImplementation("com.fasterxml.jackson.core:jackson-databind:2.18.2")  // Jackson (Databind) (для тестов с LoginBodyModel)
+    testImplementation("com.google.code.gson:gson:2.12.1")  // gson как альтернатива Jackson (Databind) - для тестов в package MestoPraktikumApiTests.models  именно он исправил ошибку, которая возниками при использовании Jackson (Databind)
+    testImplementation("org.assertj:assertj-core:3.27.3")  // assertj (для тестов с LoginResponseModel для AssertThat)
     compileOnly("org.projectlombok:lombok:1.18.36")  //lombok
 }
 

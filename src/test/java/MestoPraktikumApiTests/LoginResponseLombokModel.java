@@ -1,9 +1,9 @@
-package MestoPraktikumApiTests;
-
-import lombok.Data;
-
-@Data
-public class LoginResponseLombokModel {
-    String token;
-
-}
+//package MestoPraktikumApiTests;
+//
+//import lombok.Data;
+//
+//@Data
+//public class LoginResponseLombokModel {
+//    String token;
+//
+//}

@@ -25,13 +25,15 @@ public class MestoPraktikumApiTestsAutorizationPositive200Code {
 		SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
 		// Предполагаемые данные для авторизации
-		String email = "11@11.com";
-		String password = "11@11";
+//		String email = "11@11.com";
+//		String password = "11@11";
+		String data = "{\"email\": \"11@11.com\", \"password\": \"11@11\"}";
 
 		given()
 				.log().uri()
 				.contentType(JSON)
-				.body("{\"email\": \"" + email + "\", \"password\": \"" + password + "\"}")
+//				.body("{\"email\": \"" + email + "\", \"password\": \"" + password + "\"}")
+				.body(data)
 				.when()
 				.post("https://qa-mesto.praktikum-services.ru/api/signin")
 				.then()
@@ -50,35 +52,14 @@ public class MestoPraktikumApiTestsAutorizationPositive200Code {
 
 		given()
 				.log().uri()
-				.header("Authorization", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2EzNjljNTMxOTBmMzAwM2M0Y2RiYTMiLCJpYXQiOjE3Mzg4NDcxMTQsImV4cCI6MTczOTQ1MTkxNH0.Ut8JhMWOJzwa1weYKUCcYMMFxtb1SGJMps70mDBYyWk")
+				.header("Authorization", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2EzNjljNTMxOTBmMzAwM2M0Y2RiYTMiLCJpYXQiOjE3Mzk1MzQ4NTcsImV4cCI6MTc0MDEzOTY1N30.ojV04IrUR69w1cg0eNU9a0044ZXTob0is1Ubl0kxviw")
 				.contentType(JSON)
 				.when()
 				.get("https://qa-mesto.praktikum-services.ru/api/users/me")
 				.then()
 				.log().status()
 				.log().body()
-				.statusCode(200);
+				.statusCode(200)
+				.body("data.name", is("Жак-Ив Кусто"));
 	}
-
-
-//	@Test  // ТЕСТ не УСПЕШНЫЙ !!!
-//	@Description("Отправить GET-запрос к ресурсу https://qa-mesto.praktikum-services.ru/api/users/me    , т.е. убедиться, что по email и password, введенным при регистрации, система пускает в Личный Кабинет зарегистрированного пользователя")
-//	@Owner("Калинченко Андрей")
-//	public String ValidatableResponse login() {
-////		Configuration.pageLoadStrategy = "eager";
-////		Configuration.browserSize = "1920x1080";
-////		SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-//return
-//
-//		given()
-//				.log().uri()
-//				.header("Authorization", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2EzNjljNTMxOTBmMzAwM2M0Y2RiYTMiLCJpYXQiOjE3Mzg5Mjk0NTIsImV4cCI6MTczOTUzNDI1Mn0.j3qX9WlBBkUg8SujldKRuYuj2fE7TRDgMTn5RnxkdEY")
-//				.contentType(JSON)
-//				.when()
-//				.get("https://qa-mesto.praktikum-services.ru/api/users/me")
-//				.then()
-//				.log().status()
-//				.log().body()
-//				.statusCode(200);
-//	}
 }
