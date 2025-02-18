@@ -1,6 +1,6 @@
-package MestoPraktikumApiTests.models;
+package MestoPraktikumApiTests.models.pojo;
 
-public class LoginBodyModel {
+public class LoginBodyModelPojo {
 //	String data = "{\"email\": \"11@11.com\", \"password\": \"11@11\"}";
 	String email, password;
 
@@ -19,4 +19,6 @@ public class LoginBodyModel {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
+
 }

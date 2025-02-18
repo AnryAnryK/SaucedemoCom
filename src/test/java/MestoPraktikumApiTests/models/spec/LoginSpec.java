@@ -1,4 +1,4 @@
-package MestoPraktikumApiTests;
+package MestoPraktikumApiTests.models.spec;
 
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.specification.RequestSpecification;
@@ -18,8 +18,8 @@ public class LoginSpec {
             .log().uri()
             .log().body()
             .contentType(JSON)
-            .baseUri("https://reqres.in")
-            .basePath("/api");
+            .baseUri("https://qa-mesto.praktikum-services.ru")
+            .basePath("/api/signin");
 
     public static ResponseSpecification loginResponseSpec = new ResponseSpecBuilder()
             .log(STATUS)
