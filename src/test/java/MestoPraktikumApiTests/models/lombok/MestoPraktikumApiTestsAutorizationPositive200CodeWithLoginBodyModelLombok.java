@@ -29,9 +29,9 @@ public class MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModel
 		Configuration.browserSize = "1920x1080";
 		SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
-		LoginBodyModelLombok loginBodyModelLombok = new LoginBodyModelLombok();
-		loginBodyModelLombok.setEmail("11@11.com");
-		loginBodyModelLombok.setPassword("11@11");
+		LoginBodyModelLombok loginBodyModelLombok = new LoginBodyModelLombok(); // ("11@11.com", "11@11");  // так работает с аннотацией @Builder в package MestoPraktikumApiTests.models.lombok
+		loginBodyModelLombok.setEmail("11@11.com");  // так работает БЕЗ аннотации @Builder в package MestoPraktikumApiTests.models.lombok
+		loginBodyModelLombok.setPassword("11@11");   // так работает БЕЗ аннотации @Builder в package MestoPraktikumApiTests.models.lombok
 
 		// ранее было:
 //		String email = "11@11.com";
@@ -57,6 +57,8 @@ public class MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModel
 				.log().body()
 				.statusCode(200)
 				.extract().as(LoginResponseModelLombok.class);
+
+//	 loginBodyModelLombok = LoginBodyModelLombok.builder().email("11@11.com").password("11@12").build();
 
 		assertThat(loginResponseModelLombok.getToken()).isEqualTo("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2EzNjljNTMxOTBmMzAwM2M0Y2RiYTMiLCJpYXQiOjE3Mzk3Nzg0NTYsImV4cCI6MTc0MDM4MzI1Nn0.k4V3onS-qJV9q4WP5BICV8yzlCyil8_h4pLNxis1Z4g");
 

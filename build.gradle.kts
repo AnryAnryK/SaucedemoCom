@@ -1,3 +1,6 @@
+import org.gradle.internal.impldep.org.eclipse.jgit.lib.ObjectChecker.type
+import org.gradle.internal.impldep.org.junit.platform.launcher.TagFilter.includeTags
+
 plugins {
     id("java")
     id("io.qameta.allure") version "2.12.0" //для Аллюр- отчётов
@@ -46,3 +49,18 @@ tasks.test {
     useJUnitPlatform()
 //    systemProperties(System.getProperties()) //для Аллюр- отчётов
 }
+
+
+
+tasks.register<Test>("SaucedemoMesto") { //этот синтаксис нашёл в интернете, т.к.  вариант ниже (от QA-Guru из 17 __Jenkins 1 _  около 55 минуты) - не работает !
+    useJUnitPlatform {
+        includeTags("SaucedemoMesto")
+    }
+}
+
+
+//task SaucedemoMesto (type: Test) {
+//    useJUnitPlatform {
+//        includeTags("SaucedemoMesto")   //вариант от QA-Guru из 17 __Jenkins 1 _  около 55 минуты - не работает !
+//    }
+//}

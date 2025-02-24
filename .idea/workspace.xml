@@ -5,24 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="241807ac-e78f-461c-ab0a-06e3204a3728" name="Changes" comment="2025.02.17 в package MestoPraktikumApiTests в public class MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelPojo&#10;&#10;составил Успешный Тест с Pojo:&#10;- public void MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelPojo()">
-      <change afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombokSpec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/lombok/LoginBodyModelLombok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/lombok/LoginResponseModelLombok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/lombok/MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/pojo/MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Jenkins/simple/JenkinsNegaitive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Jenkins/simple/JenkinsPositive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0fab3b8f-0414-4c2c-87cb-10454d522de7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2e1b6a56-cd7b-4f90-b988-2bcc09df4b30-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/37681356-8163-47a8-b79c-a4ca411b1d25-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5ea41dce-f0df-4a88-8c2c-c48eb7b72089-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e946fd34-5363-426a-9c71-0ae2671b4685-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f63cab62-7025-4c14-a72d-f95f13c0494f-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/LoginBodyLombokModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/LoginResponseLombokModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/LoginSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/LoginSpec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/LoginBodyModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/pojo/LoginBodyModelPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/LoginResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/pojo/LoginResponseModelPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/lombok/LoginBodyModelLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/lombok/LoginBodyModelLombok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/lombok/MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/lombok/MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/spec/LoginSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/spec/LoginSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/spec/MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombokSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/spec/MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombokSpec.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +93,7 @@
     "JUnit.DemowebshopApiAutorization.DemowebshopApiAutorizationPositiveRestAssured.executor": "Run",
     "JUnit.DemowebshopApiAutorization.executor": "Run",
     "JUnit.DemowebshopApiLightOpeningSite.DemowebshopApiLightOpeningSitePositive.executor": "Run",
+    "JUnit.JenkinsPositive.executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200Code (1).executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200Code.MestoPraktikumApiTestsAutorizationPositive200Code (1).executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200Code.MestoPraktikumApiTestsAutorizationPositive200Code.executor": "Run",
@@ -116,7 +107,9 @@
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModel.MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModel.executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombok.MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelLombok.executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombok.MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelPojo.executor": "Run",
+    "JUnit.MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombokSpec.MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelLombok (1).executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombokSpec.MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelLombok.executor": "Run",
+    "JUnit.MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombokSpec.MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelLombokSp.executor": "Run",
     "JUnit.MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelPojo.MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelPojo.executor": "Run",
     "JUnit.ParabankParasoftComApiTestAutorization.ParabankParasoftComApiAutorizationPositive200Code.executor": "Run",
     "JUnit.ParabankParasoftComApiTestAutorization.executor": "Run",
@@ -147,14 +140,14 @@
       <recent name="C:\Users\User\IdeaProjects\Saucedemo\src\test\java\MestoPraktikumApiTests\models\lombok" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Jenkins.simple" />
       <recent name="MestoPraktikumApiTests.models" />
       <recent name="notWorking.DemowebshopApiTests" />
       <recent name="MestoPraktikumApiTests" />
       <recent name="SaucedemoComApiTests" />
-      <recent name="SaucedemoComTests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombokSpec.MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelLombok">
+  <component name="RunManager" selected="JUnit.JenkinsNegaitive">
     <configuration name="Saucedemo [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -199,55 +192,47 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Saucedemo [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombokSpec.MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelLombok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JenkinsNegaitive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MestoPraktikumApiTests.models.*" />
+          <option name="PATTERN" value="Jenkins.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MestoPraktikumApiTests.models" />
-      <option name="MAIN_CLASS_NAME" value="MestoPraktikumApiTests.models.MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombokSpec" />
-      <option name="METHOD_NAME" value="MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelLombok" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Jenkins.simple" />
+      <option name="MAIN_CLASS_NAME" value="Jenkins.simple.JenkinsNegaitive" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombok.MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelLombok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JenkinsPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MestoPraktikumApiTests.models.lombok.*" />
+          <option name="PATTERN" value="Jenkins.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MestoPraktikumApiTests.models.lombok" />
-      <option name="MAIN_CLASS_NAME" value="MestoPraktikumApiTests.models.lombok.MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombok" />
-      <option name="METHOD_NAME" value="MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelLombok" />
+      <option name="PACKAGE_NAME" value="Jenkins.simple" />
+      <option name="MAIN_CLASS_NAME" value="Jenkins.simple.JenkinsPositive" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JenkinsPositive.JenkinsPositive2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Jenkins.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Jenkins.simple" />
+      <option name="MAIN_CLASS_NAME" value="Jenkins.simple.JenkinsPositive" />
+      <option name="METHOD_NAME" value="JenkinsPositive2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -255,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombokSpec.MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelLombok" />
-        <item itemvalue="JUnit.MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombok.MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelLombok" />
+        <item itemvalue="JUnit.JenkinsNegaitive" />
+        <item itemvalue="JUnit.JenkinsPositive" />
+        <item itemvalue="JUnit.JenkinsPositive.JenkinsPositive2" />
         <item itemvalue="Gradle.Saucedemo [allureServe]" />
         <item itemvalue="Gradle.Saucedemo [allureReport]" />
-        <item itemvalue="Gradle.Saucedemo [test]" />
       </list>
     </recent_temporary>
   </component>
