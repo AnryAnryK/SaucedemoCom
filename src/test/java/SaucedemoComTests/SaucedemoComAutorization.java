@@ -22,6 +22,7 @@ public class SaucedemoComAutorization {
 		Configuration.pageLoadStrategy = "eager";
 		Configuration.browserSize = "1920x1080";
 		SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+		Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub"; // это - для запуска теста на Selenoid (учебный стенд !)
 
 		step("1 Шаг: Зайти на сайт https://www.saucedemo.com/", () ->
 		{

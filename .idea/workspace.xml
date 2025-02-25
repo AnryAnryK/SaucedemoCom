@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="241807ac-e78f-461c-ab0a-06e3204a3728" name="Changes" comment="2025.02.17 в package MestoPraktikumApiTests в public class MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelPojo&#10;&#10;составил Успешный Тест с Pojo:&#10;- public void MestoPraktikumApiTestsAutorizationPositivePost200CodeWithLoginBodyModelPojo()">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Jenkins/simple/JenkinsNegaitive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Jenkins/simple/JenkinsPositive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/lombok/LoginBodyModelLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/lombok/LoginBodyModelLombok.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/lombok/MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/lombok/MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombok.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/spec/LoginSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/spec/LoginSpec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/spec/MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombokSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MestoPraktikumApiTests/models/spec/MestoPraktikumApiTestsAutorizationPositive200CodeWithLoginBodyModelLombokSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SaucedemoComTests/SaucedemoComAutorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SaucedemoComTests/SaucedemoComAutorization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +113,7 @@
     "JUnit.SaucedemoComApiAutorization.SaucedemoComApiAutorizationPositiveGet200Code.executor": "Run",
     "JUnit.SaucedemoComApiAutorization.SaucedemoComApiAutorizationPositivePost200Code.executor": "Run",
     "JUnit.SaucedemoComApiAutorization.executor": "Run",
+    "JUnit.SaucedemoComAutorization.SaucedemoComAutorizationPositive.executor": "Run",
     "JUnit.SaucedemoComAutorization.executor": "Run",
     "JUnit.SaucedemoComRemoveProductFromCart.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -147,51 +142,7 @@
       <recent name="SaucedemoComApiTests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JenkinsNegaitive">
-    <configuration name="Saucedemo [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="allureReport" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Saucedemo [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="allureServe" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SaucedemoComAutorization">
     <configuration name="JenkinsNegaitive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo.test" />
       <extension name="coverage">
@@ -238,13 +189,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SaucedemoComAutorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SaucedemoComTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SaucedemoComTests" />
+      <option name="MAIN_CLASS_NAME" value="SaucedemoComTests.SaucedemoComAutorization" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaucedemoComAutorization.SaucedemoComAutorizationPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SaucedemoComTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SaucedemoComTests" />
+      <option name="MAIN_CLASS_NAME" value="SaucedemoComTests.SaucedemoComAutorization" />
+      <option name="METHOD_NAME" value="SaucedemoComAutorizationPositive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SaucedemoComAutorization" />
+        <item itemvalue="JUnit.SaucedemoComAutorization.SaucedemoComAutorizationPositive" />
         <item itemvalue="JUnit.JenkinsNegaitive" />
         <item itemvalue="JUnit.JenkinsPositive" />
         <item itemvalue="JUnit.JenkinsPositive.JenkinsPositive2" />
-        <item itemvalue="Gradle.Saucedemo [allureServe]" />
-        <item itemvalue="Gradle.Saucedemo [allureReport]" />
       </list>
     </recent_temporary>
   </component>
