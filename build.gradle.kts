@@ -1,4 +1,5 @@
 import org.gradle.internal.impldep.org.eclipse.jgit.lib.ObjectChecker.type
+import org.gradle.internal.impldep.org.junit.platform.launcher.TagFilter.excludeTags
 import org.gradle.internal.impldep.org.junit.platform.launcher.TagFilter.includeTags
 
 plugins {
@@ -51,7 +52,6 @@ tasks.test {
 }
 
 
-
 tasks.register<Test>("SaucedemoMesto") { //этот синтаксис нашёл в интернете, т.к.  вариант ниже (от QA-Guru из 17 __Jenkins 1 _  около 55 минуты) - не работает !
     useJUnitPlatform {
         includeTags("SaucedemoMesto")
@@ -59,8 +59,20 @@ tasks.register<Test>("SaucedemoMesto") { //этот синтаксис нашё�
 }
 
 
+
 //task SaucedemoMesto (type: Test) {
 //    useJUnitPlatform {
 //        includeTags("SaucedemoMesto")   //вариант от QA-Guru из 17 __Jenkins 1 _  около 55 минуты - не работает !
 //    }
 //}
+
+tasks.withType<Test> {
+    useJUnitPlatform {
+        if (project.hasProperty("simple")) {
+            includeTags(project.properties["simple"].toString())
+        }
+        if (project.hasProperty("simple")) {
+            excludeTags(project.properties["simple"].toString())
+        }
+    }
+}
